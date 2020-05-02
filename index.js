@@ -1,15 +1,3 @@
-/*
-Steps to setup project from scratch
-touch index.js
-npm init -y
-npx eslint --init
-git init (if you want it as repo)
-touch .gitignore (if you want it as repo)
-npm i express
-npm i morgan
-npm i express-handlebars
-*/
-
 const express = require('express');
 const morgan = require('morgan');
 const router = require('./routes/routes');
